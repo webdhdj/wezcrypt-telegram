@@ -53,4 +53,4 @@ shasum -a 256 WezCryptTelegram.ipa
 - إن علِق Xcode عند «build-request.json not updated yet» أعد المحاولة (FAQ رسمي).
 
 ## CI (GitHub Actions)
-`.github/workflows/build-ipa.yml` مرفق كقالب: يتحقق من إصدار Xcode ويفشل إن لم يطابق 27.1. تنبيه صادق: رنّرات GitHub المستضافة قد لا توفر macOS 27 / Xcode 27.1 بعد؛ المسار الموثوق حاليًا Mac فعلي أو Self-hosted runner. لم يُشغَّل هذا الـ Workflow فعليًا.
+`.github/workflows/build-ipa.yml` يعمل على صورة GitHub المستضافة **`xcode-27`** (GA منذ 2026-10-15: macOS 27 + Xcode 27 على Apple Silicon — github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available). الـ Workflow: يثبّت أحدث Xcode 27.x متاح على الصورة، يبني بـ `fake-codesigning` الرسمي فينتج **IPA غير موقّع** (مسار Reproducible Builds نفسه)، ويرفع الـ IPA + اللوجات كـ Artifacts. حدود واقعية: مهلة Job ‏350 دقيقة، ومساحة قرص الصورة أقل من بيئة Telegram المرجعية (~90GB) — فشل القرص أو المهلة احتمالان حقيقيان لأول تشغيل. أسرار اختيارية: `WEZCRYPT_API_ID`/`WEZCRYPT_API_HASH`/`WEZCRYPT_TEAM_ID` — بدونها تُستخدم Placeholders رقمية والبناء يصلح للتحقق من خط البناء فقط (التطبيق الناتج **لا يسجّل دخول**).
