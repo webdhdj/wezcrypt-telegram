@@ -1,0 +1,195 @@
+diff --git a/Telegram/Telegram-iOS/ar.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/ar.lproj/InfoPlist.strings
+index 174276a..e8a8c0d 100644
+--- a/Telegram/Telegram-iOS/ar.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/ar.lproj/InfoPlist.strings
+@@ -1,5 +1,5 @@
+ /* Localized versions of Info.plist keys */
+-"CFBundleDisplayName" = "تيليجرام";
++"CFBundleDisplayName" = "WezCrypt";
+ "NSContactsUsageDescription" = "سيقوم تيليجرام برفع جهات الاتصال الخاصة بك باستمرار إلى خوادم التخزين السحابية ذات التشفير العالي لتتمكن من التواصل مع أصدقائك من خلال جميع أجهزتك.";
+ "NSLocationWhenInUseUsageDescription" = "عندما ترغب في مشاركة مكانك مع أصدقائك، تيليجرام يحتاج لصلاحيات لعرض الخريطة لهم.";
+ "NSLocationAlwaysAndWhenInUseUsageDescription" = "عندما تختار أن تشارك مكانك بشكل حي مع أصدقائك في المحادثة، يحتاج تيليجرام إلى الوصول لموقعك في الخلفية حتى بعد إغلاق تيليجرام خلال فترة المشاركة.";
+diff --git a/Telegram/Telegram-iOS/be.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/be.lproj/InfoPlist.strings
+index 3f3e41d..3fc959b 100644
+--- a/Telegram/Telegram-iOS/be.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/be.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Нам неабходны гэты дазвол, каб вы маглі запісваць і абагульваць галасавыя паведамленні і відэа з гукам.";
+ "NSSiriUsageDescription" = "Вы можаце адпраўляць паведамленні праз Siri.";
+ "NSFaceIDUsageDescription" = "Вы можаце карыстацца Face ID для разблакіравання праграмы.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/ca.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/ca.lproj/InfoPlist.strings
+index f57e0ce..288a982 100644
+--- a/Telegram/Telegram-iOS/ca.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/ca.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Ens cal això perquè pugueu enregistrar i compartir missatges de veu i vídeos amb so.";
+ "NSSiriUsageDescription" = "Podeu usar Siri per a enviar missatges.";
+ "NSFaceIDUsageDescription" = "Podeu emprar Face ID per a desblocar l'aplicació.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/de.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/de.lproj/InfoPlist.strings
+index 792eaa3..37a71c9 100644
+--- a/Telegram/Telegram-iOS/de.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/de.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Brauchen wir, damit du Sprachnachrichten aufnehmen und Videos mit Ton teilen kannst.";
+ "NSSiriUsageDescription" = "Mit Siri kannst du Nachrichten senden.";
+ "NSFaceIDUsageDescription" = "Mit Face ID kannst du die App entsperren.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/en.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/en.lproj/InfoPlist.strings
+index e77338c..ca32547 100644
+--- a/Telegram/Telegram-iOS/en.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/en.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "We need this so that you can record and share voice messages and videos with sound.";
+ "NSSiriUsageDescription" = "You can use Siri to send messages.";
+ "NSFaceIDUsageDescription" = "You can use Face ID to unlock the app.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/es.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/es.lproj/InfoPlist.strings
+index 672fbd1..07c2cd8 100644
+--- a/Telegram/Telegram-iOS/es.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/es.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Es requerido para que puedas grabar y compartir mensajes de voz y vídeos con sonido.";
+ "NSSiriUsageDescription" = "Puedes usar Siri para enviar mensajes.";
+ "NSFaceIDUsageDescription" = "Puedes usar Face ID para desbloquear la app.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/fa.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/fa.lproj/InfoPlist.strings
+index d23604b..47fa9fe 100644
+--- a/Telegram/Telegram-iOS/fa.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/fa.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "ما به این دسترسی نیاز داریم تا شما بتوانید پیام‌های صوتی و ویدیوهای صدادار را ضبط کرده و به اشتراک بگذارید.";
+ "NSSiriUsageDescription" = "شما می‌توانید با استفاده از Siri پیام ارسال کنید.";
+ "NSFaceIDUsageDescription" = "شما می‌توانید با استفاده‌ از Face ID قفل برنامه را باز کنید.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/fr.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/fr.lproj/InfoPlist.strings
+index fa15291..cac0cea 100644
+--- a/Telegram/Telegram-iOS/fr.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/fr.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Nous en avons besoin pour que vous puissiez enregistrer et partager des messages vocaux et des vidéos avec du son.";
+ "NSSiriUsageDescription" = "Vous pouvez utiliser Siri pour envoyer des messages.";
+ "NSFaceIDUsageDescription" = "Vous pouvez déverrouiller Telegram avec Face ID.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/id.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/id.lproj/InfoPlist.strings
+index 8291c51..8ba6295 100644
+--- a/Telegram/Telegram-iOS/id.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/id.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Kami butuh hal ini agar Anda dapat merekam dan berbagi pesan audio dan video dengan suara.";
+ "NSSiriUsageDescription" = "Anda dapat menggunakan Siri untuk mengirim pesan.";
+ "NSFaceIDUsageDescription" = "Anda dapat menggunakan Face ID untuk membuka kunci aplikasi.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/it.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/it.lproj/InfoPlist.strings
+index a9a5ed1..a126afa 100644
+--- a/Telegram/Telegram-iOS/it.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/it.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Ci serve per farti registrare e condividere messaggi vocali e video con il sonoro.";
+ "NSSiriUsageDescription" = "Puoi usare Siri per inviare messaggi.";
+ "NSFaceIDUsageDescription" = "Puoi usare il Face ID per sbloccare l'app.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/ko.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/ko.lproj/InfoPlist.strings
+index b692e0a..a7295af 100644
+--- a/Telegram/Telegram-iOS/ko.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/ko.lproj/InfoPlist.strings
+@@ -1,5 +1,5 @@
+ /* Localized versions of Info.plist keys */
+-"CFBundleDisplayName" = "텔레그램";
++"CFBundleDisplayName" = "WezCrypt";
+ "NSContactsUsageDescription" = "Telegram will continuously upload your contacts to its heavily encrypted cloud servers to let you connect with your friends across all your devices.";
+ "NSLocationWhenInUseUsageDescription" = "친구에게 회원님의 위치를 전송할 경우 위치를 지도에 표시하기 위해 텔레그램이 위치 정보에 접근할 수 있어야 합니다.";
+ "NSLocationAlwaysUsageDescription" = "친구에게 회원님의 위치를 전송할 경우 위치를 지도에 표시하기 위해 텔레그램이 위치 정보에 접근할 수 있어야 합니다. 애플워치에 위치 전송을 위해서도 필요합니다.";
+diff --git a/Telegram/Telegram-iOS/ms.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/ms.lproj/InfoPlist.strings
+index c6d7bf7..deed724 100644
+--- a/Telegram/Telegram-iOS/ms.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/ms.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Kita perlu ini agar anda boleh rekod dan kongsi mesej suara dan video dengan suara.";
+ "NSSiriUsageDescription" = "Anda boleh guna Siri untuk kirim mesej.";
+ "NSFaceIDUsageDescription" = "Anda boleh guna ID Muka untuk guna aplikasi.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/nl.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/nl.lproj/InfoPlist.strings
+index 1bddf64..54d800e 100644
+--- a/Telegram/Telegram-iOS/nl.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/nl.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "We hebben dit nodig zodat je spraakberichten en video's met geluid kunt opnemen en delen.";
+ "NSSiriUsageDescription" = "Je kunt Siri gebruiken om berichten te sturen";
+ "NSFaceIDUsageDescription" = "Je kunt Face ID gebruiken om de app te ontgrendelen.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/pl.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/pl.lproj/InfoPlist.strings
+index e2edd5f..4c53dc8 100644
+--- a/Telegram/Telegram-iOS/pl.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/pl.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Potrzebujemy tego, aby można było nagrywać i udostępniać wiadomości głosowe i wideo z dźwiękiem.";
+ "NSSiriUsageDescription" = "Możesz użyć Siri do wysyłania wiadomości.";
+ "NSFaceIDUsageDescription" = "Możesz użyć Face ID, aby odblokować aplikację.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/pt.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/pt.lproj/InfoPlist.strings
+index ddc65bb..c7966d5 100644
+--- a/Telegram/Telegram-iOS/pt.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/pt.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Precisamos disso para que você possa gravar mensagens de voz e vídeos com som.";
+ "NSSiriUsageDescription" = "Você pode usar a Siri para enviar mensagens.";
+ "NSFaceIDUsageDescription" = "Você pode usar o Face ID para desbloquear o app.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/ru.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/ru.lproj/InfoPlist.strings
+index 08c349a..8ae15a2 100644
+--- a/Telegram/Telegram-iOS/ru.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/ru.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Это необходимо, чтобы вы могли делиться голосовыми сообщениями и видео со звуком.";
+ "NSSiriUsageDescription" = "Вы можете использовать Siri для отправки сообщений.";
+ "NSFaceIDUsageDescription" = "Вы можете разблокировать приложение с помощью Face ID.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/tr.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/tr.lproj/InfoPlist.strings
+index 283b1f2..1e81418 100644
+--- a/Telegram/Telegram-iOS/tr.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/tr.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Sesli mesajları ve videoları ses ile kaydedebilmeniz ve paylaşabilmeniz için buna ihtiyacımız var.";
+ "NSSiriUsageDescription" = "Mesaj göndermek için Siri'yi kullanabilirsiniz.";
+ "NSFaceIDUsageDescription" = "Uygulamanın kilidini açmak için Face ID'yi kullanabilirsiniz.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/uk.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/uk.lproj/InfoPlist.strings
+index f9e8f94..dd0f316 100644
+--- a/Telegram/Telegram-iOS/uk.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/uk.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Нам це потрібно, щоб ви могли записувати та ділитися голосовими повідомленнями та відео зі звуком.";
+ "NSSiriUsageDescription" = "Надсилайте повідомлення з Siri.";
+ "NSFaceIDUsageDescription" = "Розблоковуйте застосунок із Face ID.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/Telegram/Telegram-iOS/uz.lproj/InfoPlist.strings b/Telegram/Telegram-iOS/uz.lproj/InfoPlist.strings
+index ec5ffb6..15884f1 100644
+--- a/Telegram/Telegram-iOS/uz.lproj/InfoPlist.strings
++++ b/Telegram/Telegram-iOS/uz.lproj/InfoPlist.strings
+@@ -10,3 +10,4 @@
+ "NSMicrophoneUsageDescription" = "Bu bizga ovozli xabarlarni tovush bilan yozishingiz va ulashingiz uchun kerak.";
+ "NSSiriUsageDescription" = "Siz xabarlar yuborish uchun Siridan foydalanishingiz mumkin.";
+ "NSFaceIDUsageDescription" = "Siz ilovani Face ID yordamida ochishingiz mumkin.";
++"CFBundleDisplayName" = "WezCrypt";
+diff --git a/build-system/wezcrypt-configuration.json b/build-system/wezcrypt-configuration.json
+new file mode 100644
+index 0000000..df2028d
+--- /dev/null
++++ b/build-system/wezcrypt-configuration.json
+@@ -0,0 +1,14 @@
++{
++	"bundle_id": "com.wezcrypt.telegram",
++	"api_id": "{! get one at https://my.telegram.org/apps !}",
++	"api_hash": "{! get one at https://my.telegram.org/apps !}",
++	"team_id": "{! your Apple Team ID !}",
++	"app_center_id": "0",
++	"is_internal_build": "true",
++	"is_appstore_build": "false",
++	"appstore_id": "0",
++	"app_specific_url_scheme": "wezcrypttg",
++	"premium_iap_product_id": "",
++	"enable_siri": false,
++	"enable_icloud": false
++}
