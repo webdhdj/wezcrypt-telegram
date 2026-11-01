@@ -1,0 +1,12 @@
+b1c3ce60d7bc8c5de4a8cd5ddab6709a8517e25cc4182c9d5f9d7eceb8621789  ./.github/workflows/build-ipa.yml
+7a55a93bc83b88754b2688f88af37a57d4166a959e64ee37bd19a15db2bd7f37  ./README.md
+f471b8f1f3000dfd12744adf065dfb574e3bca30b9a10fc3910bba1bb96b501f  ./config/wezcrypt-telegram-configuration.template.json
+831018367823b143f36032f46fddcc9f65395ae45d0759b651a5787a0d822e51  ./docs/ADS_AND_TERMS_ANALYSIS.md
+d16266fd9d8f9ffc692d0fe7fb255b9fc09444d756435dc9d5fcfbdb2c7cfbc5  ./docs/BUILD_INSTRUCTIONS.md
+5bc4dfd293128d38a4162c80ea61cf64ef69c3e9e94360429a2a471f1d693f19  ./docs/INSTALL.md
+5f6bc005580ffd38a6bed4d4c88ce9939bfa5b0147b282ad6de47226348844b0  ./docs/SECURITY_REPORT.md
+eee5e73bfc2cb6b662291b7684d3edeeb293ff181b0bb44eae0de1dae214b29b  ./docs/TEST_REPORT.md
+05845874566e5972834da31e2b78a309a47abaa7dc03197b69a0adbac5d900c4  ./patches/wezcrypt-telegram-13.1.2.patch
+dae49f48e85f4e074b66a3ad4ee5ce584411aff685898c81bf1168db4f703b6d  ./scripts/build-on-mac.sh
+20d03c6816fdee69721d19079a78c7348bc15c103f7917b7e9a4a8b4656b73d2  ./scripts/customize.py
+0065a1d788fc232e7b57be4ecc4a03149fedcc8e37530508ce44a77d3be99e0b  ./scripts/verify-no-forbidden-changes.sh
